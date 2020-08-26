@@ -60,7 +60,7 @@ fabric.properties
 *.user
 *.userosscache
 *.sln.docstates
-
+ormconfig.json
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 

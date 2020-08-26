@@ -1,4 +1,6 @@
 export class CreatePostDto{
-    id: string ;
-    username: string;
+    Username: string;
+    Password: string;
+    FirstName: string;
+    LastName: string; 
 }
