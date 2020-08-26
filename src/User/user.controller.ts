@@ -7,10 +7,10 @@ export class UsersController {
 
     constructor(private service: UsersService) { }
 
-    @Get('')
+    @Get(':id')
     get(@Param() params) {
-        // return this.service.getUser(params.Id);
-        return this.service.getUsers();
+        return this.service.getUser(params.id);
+        // return this.service.getUsers();
     }
 
     @Post()
